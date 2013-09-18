@@ -139,7 +139,7 @@ if object_id('dbo.relation_tags', 'U') is null
   (
     relation_id bigint       not null,
     [key]       varchar(100) not null,
-    value       varchar(500) null
+    value       nvarchar(500) null
   ); 
 
 
