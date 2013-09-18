@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A400832E-5CDD-4084-A57A-5D4076C3A21A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsmSharp", "OsmSharp\OsmSharp.csproj", "{95C32F29-5537-4FB7-8C85-B754BC9903A9}"
@@ -40,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsmSharp.Data.Unittests", "OsmSharp.Data.Unittests\OsmSharp.Data.Unittests.csproj", "{EDBF254D-931A-4B3F-8062-56506AA56E1A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsmSharp.WinForms.UI.Unittests", "OsmSharp.WinForms.UI.Unittests\OsmSharp.WinForms.UI.Unittests.csproj", "{B3DF1836-AB05-48A2-87B1-413F549B8F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject2", "UnitTestProject2\UnitTestProject2.csproj", "{CAC9958B-709E-4FB2-8EFE-DD1E63B1912D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -238,6 +242,14 @@ Global
 		{B3DF1836-AB05-48A2-87B1-413F549B8F5B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B3DF1836-AB05-48A2-87B1-413F549B8F5B}.Release|x64.ActiveCfg = Release|Any CPU
 		{B3DF1836-AB05-48A2-87B1-413F549B8F5B}.Release|x86.ActiveCfg = Release|Any CPU
+		{CAC9958B-709E-4FB2-8EFE-DD1E63B1912D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC9958B-709E-4FB2-8EFE-DD1E63B1912D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC9958B-709E-4FB2-8EFE-DD1E63B1912D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CAC9958B-709E-4FB2-8EFE-DD1E63B1912D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CAC9958B-709E-4FB2-8EFE-DD1E63B1912D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC9958B-709E-4FB2-8EFE-DD1E63B1912D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC9958B-709E-4FB2-8EFE-DD1E63B1912D}.Release|x64.ActiveCfg = Release|Any CPU
+		{CAC9958B-709E-4FB2-8EFE-DD1E63B1912D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -260,6 +272,7 @@ Global
 		{5C4BCE30-FBB8-408A-B702-33DFF5CC4A36} = {2077896F-7039-42EC-8316-263286837E41}
 		{9152A85F-61AC-486F-B5F6-E2C969132738} = {2077896F-7039-42EC-8316-263286837E41}
 		{EDBF254D-931A-4B3F-8062-56506AA56E1A} = {2077896F-7039-42EC-8316-263286837E41}
+		{CAC9958B-709E-4FB2-8EFE-DD1E63B1912D} = {2077896F-7039-42EC-8316-263286837E41}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = OsmSharp.WinForms.UI.Sample\OsmSharp.WinForms.UI.Sample.csproj

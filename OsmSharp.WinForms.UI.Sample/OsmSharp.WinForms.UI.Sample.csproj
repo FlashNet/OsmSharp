@@ -154,6 +154,10 @@
     <EmbeddedResource Include="images\postbox.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\OsmSharp.Data.SQLServer\OsmSharp.Data.SQLServer.csproj">
+      <Project>{269551d7-97ac-464b-930e-1cd338df790b}</Project>
+      <Name>OsmSharp.Data.SQLServer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OsmSharp.Osm\OsmSharp.Osm.csproj">
       <Project>{249DCEC1-615D-40AA-93FF-BCE2178DFF83}</Project>
       <Name>OsmSharp.Osm</Name>
